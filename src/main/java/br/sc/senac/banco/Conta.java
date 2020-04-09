@@ -4,15 +4,15 @@ public class Conta {
 
 	private String titular;
 	private double saldo;
-	private int numeroConta;
+	private String numeroConta;
 
-	public Conta(String titular, int numeroConta, double saldo) {
+	public Conta(String titular, String numeroConta, double saldo) {
 		this.titular = titular;
 		this.numeroConta = numeroConta;
 		this.saldo = saldo;
 	}
 
-	public int getNumeroConta() {
+	public String getNumeroConta() {
 		return numeroConta;
 	}
 

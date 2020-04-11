@@ -28,11 +28,6 @@ public class Conta {
 		return saldo;
 	}
 
-	@Override
-	public String toString() {
-		return "Numero da conta: " + this.numeroConta + "\nTitular: " + this.titular + "\nSaldo: " + this.saldo;
-	}
-
 	public void depositar(double valorDeposito) {
 		this.saldo += valorDeposito;
 	}
